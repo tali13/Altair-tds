@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="shortcut icon" href="icon-removebg-preview.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/carrocel.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/banner.css">
+  </head>
+  <body>
+   
+    <header >
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container" >
+             <a href=""><img src="logo@2x_white.png" alt="" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".collapse.navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse"  >
+
+                <ul class="navbar-nav ms-auto">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tours</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shortcodess</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
+          <div style="position:absolute; top: 35px; right: 555px;">
+            <img src="shopping-cart.png" width="20" >
+            <span style="
+              position: absolute;
+              background: rgb(0, 0, 0);
+              color: white;
+              border-radius: 50%;
+              font-size: 12px;
+              padding: 2px 5px;
+              top: -6px;
+              right: -6px;
+            ">0</span>
+          </div>
+
+          <div style="position: absolute; top: 33px; right: 510px;">
+            <img src="png-removebg-preview.png" width="20" >
+            <span style="
+              position: absolute;
+              background: rgba(0, 0, 0, 0);
+              color: white;
+              border-radius: 50%;
+              font-size: 12px;
+              padding: 2px 5px;
+              top: -6px;
+              right: -6px;
+            "></span>
+          </div>
+          
+    </header>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+
+
+
+
+        
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="WhatsApp Image 2025-07-22 at 15.02.08.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption-custom text-center">
+            <p class="small fst-italic" data-aos="fade-left">ITALY</p>
+            <h1 class="display-3 fw-bold" data-aos="fade-right">VENEZIA</h1>
+            <p class="lead" data-aos="fade-up">
+              Arctic temperatures and several meters of snow <br>
+              are no match for the natural impressions and cultural twist <br>
+              that will warm your soul while dog sledding in Greenland.
+            </p>
+          </div>
+        </div>
+      
+          
+          
+          <div class="carousel-item">
+            <img src="WhatsApp Image 2025-07-22 at 14.52.28.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption-custom text-center">
+              <p class="small fst-italic" data-aos="fade-left">FRACE</p>
+              <h1 class="display-3 fw-bold" data-aos="fade-right">PARIS</h1>
+              <p class="lead" data-aos="fade-up">
+                Arctic temperatures and several meters of snow <br>
+                are no match for the natural impressions and cultural twist <br>
+                that will warm your soul while dog sledding in Greenland.
+              </p>
+            </div>
+          </div>
+         
+          <div class="carousel-item">
+            <img src="f227b7eb-7fa1-4cae-be43-f4963c44d560.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption-custom text-center">
+              <p class="small fst-italic" data-aos="fade-left">SWITZERLAND</p>
+              <h1 class="display-3 fw-bold" data-aos="fade-right">ZURICH</h1>
+              <p class="lead" data-aos="fade-up">
+                Arctic temperatures and several meters of snow <br>
+                are no match for the natural impressions and cultural twist <br>
+                that will warm your soul while dog sledding in Greenland.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+
+</div>
+   <section id="form-container">
+<name>
+  <form class="search-1" action="#" method="post">
+
+    <div class="form-group">
+      <label for="n">DESTINATION</label>
+      <input type="text" id="n" name="n" placeholder="" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="d">DATE</label>
+      <div class="date-group">
+        <input type="text" id="d" name="d" placeholder="" required>
+        <input type="text" id="dd" name="dd" placeholder="" required>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="z">MAX BUDGETS</label>
+      <input type="text" id="z" name="z" placeholder="" required>
+    </div>
+  
+    <button type="submit" class="btn-1">SEARCH</button>
+  
+  </form>
+  
+</name>
+</section> 
+
+<br><br><br>
+
+  <div class="titulo">
+    <h1>Best Offers ✮</h1>
+    <div class="coxinha">Check out our best promotion tours</div>
+  </div>
+  <br><br><br>
+
+<section class="card-container">
+    <div class="card">
+      <img src="imagem1.jpg" alt="Grand Turkey">
+      <div class="card-36">
+        <div class="card-tp">
+          <span class="c">TURKEY</span>
+          <span class="days">8 DAYS</span>
+        </div>
+        <div class="card-btn">
+          <h2>Grand Turkey</h2>
+          <span class="price">$2000</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img2.jpg" alt="Grand Turkey">
+      <div class="card-36">
+        <div class="card-tp">
+          <span class="c">SPAIN</span>
+          <span class="days">9 DAYS</span>
+        </div>
+        <div class="card-btn">
+          <h2>Grand Spain Madrid</h2>
+          <span class="price">$3000</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img3.jpg" alt="Grand Turkey">
+      <div class="card-36">
+        <div class="card-tp">
+          <span class="c">AUSTRIA, SWITZERLAND</span>
+          <span class="days">13 DAYS</span>
+        </div>
+        <div class="card-btn">
+          <h2>Swiss Alps Trip</h2>
+          <span class="price">$3000</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img4.jpg" alt="Grand Turkey">
+      <div class="card-36">
+        <div class="card-tp">
+          <span class="c">/ITALY</span>
+          <span class="days">8 DAYS</span>
+        </div>
+        <div class="card-btn">
+          <h2>Grand Italy</h2>
+          <span class="price">$3000</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="img5.jpg" alt="Grand Turkey">
+      <div class="card-36">
+        <div class="card-tp">
+          <span class="c">ENGLAND, SCOTLAND, WALES</span>
+          <span class="days">13 DAYS</span>
+        </div>
+        <div class="card-btn">
+          <h2>UK Trip</h2>
+          <span class="price">$5000</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img6.jpg" alt="Grand Turkey">
+      <div class="card-36">
+        <div class="card-tp">
+          <span class="c">SLOVENIA, HUNGARY, CZECH
+
+          </span>
+          <span class="days">10 DAYS</span>
+        </div>
+        <div class="card-btn">
+          <h2>East Europe</h2>
+          <span class="price">$3000</span>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<section>
+
+  <div class="container my-5">
+    <h2 class="text-center fw-bold">WHAT CUSTOMERS SAY ✮</h2>
+  
+    <div id="testimonialCarousel" class="carousel slide text-center" data-bs-ride="carousel">
+      <div class="carousel-inner">
+  
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <p class="fst-italic">
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Sed vestibulum orci quam.
+          </p>
+          <p>
+            <span>Christina Hardy</span> 
+            <span class="text-danger"> Marketing Manager - Red Inc.</span>
+          </p>
+        </div>
+  
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <p class="fst-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et velit quis sapien congue.
+          </p>
+          <p>
+            <span>John Smith</span>
+            <span class="text-danger"> CEO - Blue Ltd.</span>
+          </p>
+        </div>
+  
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <p class="fst-italic">
+            Nulla facilisi. Maecenas non nulla eu mauris convallis tincidunt non at elit.
+          </p>
+          <p>
+            <span>Sarah Johnson</span>
+            <span class="text-danger"> Designer - Pixel Studio</span>
+          </p>
+        </div>
+  
+      </div>
+      <br><br><br>
+  
+      <!-- Botões de navegação -->
+      <div class="carousel-indicators mt-3">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active btn-carrossel"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="btn-carrossel"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" class="btn-carrossel"></button>
+      </div>
+    </div>
+  </div>
+  
+
+</section>
+
+<div id="banner"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+      const scrolled = window.scrollY;
+      const parallax = document.querySelector('#banner');
+      parallax.style.backgroundPositionY = -(scrolled * 0.2) + 'px';
+    });
+  });
+
+</script>
+
+<div class="agua" style="height: 500px;">
+  <h1>Lake Geneva Switzerland ✮</h1>
+
+  <div class="conteudo">
+    <div class="comida">
+     <br> Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+     <br> sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      <br>
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+    
+    </div>
+
+    <div class="cansaso">
+      “It was fantastic going on the sled to see the views on the mountains! 
+      <br>And the action of it – I loved going fast!”
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<section class="w">
+  <h2>WHY CHOOSE US ✮</h2>
+  <div class="cards-09">
+    <div class="card-01">
+      <div class="icon">
+        <i class="f"></i>
+      </div>
+      <h3>Handpicked Hotels</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+      <a href="#">learn more</a>
+    </div>
+
+    <div class="card-01">
+      <div class="icon">
+        <i class="f"></i>
+      </div>
+      <h3>World Class Service</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+      <a href="#">learn more</a>
+    </div>
+
+    <div class="card-01">
+      <div class="icon">
+        <i class="f"></i>
+      </div>
+      <h3>Best Price Guarantee</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
+      <a href="#">learn more</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<div class="news-section">
+  <h2 class="news-title">NEWS & UPDATE ✮</h2>
+  <p class="news-subtitle">OUR LATEST NEWS & PROMOTIONS</p>
+
+  <div class="news-grid">
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/10/s01-1024x682.jpg);">
+      <div class="card-text">
+        <h5>STANDARD BLOG POST WITH IMAGE</h5>
+        <p>ON MAY 26, 2014</p>
+      </div>
+    </div>
+
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/05/1600x1200-8-1024x768.jpg);">
+      <div class="card-text">
+        <h5>AMAZING FULLWIDTH POST</h5>
+        <p>ON MAY 26, 2014</p>
+      </div>
+    </div>
+
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/10/1600x1200-4-1024x768.jpg);">
+      <div class="card-text">
+        <h5>LINK POST</h5>
+        <p>ON MAY 19, 2014</p>
+      </div>
+    </div>
+
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/10/1600x1200-9-1024x768.jpg);">
+      <div class="card-text">
+        <h5>Quote Post</h5>
+        <p>ON MAY 18, 2014</p>
+      </div>
+    </div>
+
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/10/paris-opera-night-france-hd-widescreen-wallpapers-1024x640.jpg);">
+      <div class="card-text">
+        <h5>Sidebar Post With Slideshow</h5>
+        <p>June 26, 2013  By admin </p>
+      </div>
+    </div>
+
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/10/Ermin-Celikovic-1024x682.jpg);">
+      <div class="card-text">
+        <h5>Duis vestibulum quis quam</h5>
+        <p>June 22, 2011  By admin 
+        </p>
+      </div>
+    </div>
+
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/10/1600x1200-12-1024x768.jpg);">
+      <div class="card-text">
+        <h5>Vimeo Video Post</h5>
+        <p>June 22, 2011  By admin </p>
+      </div>
+    </div>
+
+    <div class="news-card" style="background-image: url(https://themes.themegoods.com/altair/demo/wp-content/uploads/2011/05/paris-cityscapes_00411691-1024x576.jpg);">
+      <div class="card-text">
+        <h5>LINK POST2</h5>
+        <p>ON MAY 19, 2014</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<footer class="footer" >
+
+  <div class="footer-bottom">
+    <div class="social-icons">
+       <i class="fi fi-brands-facebook"></i>
+       <i class="fi fi-brands-twitter"></i>
+       <i class="fi fi-brands-flickr"></i>
+       <i class="fi fi-brands-youtube"></i>
+       <i class="fi fi-brands-vimeo"></i>
+       <i class="fi fi-brands-google"></i>
+       <i class="fi fi-brands-pinterest"></i>
+       <i class="fi fi-brands-instagram"></i>
+    </div>
+    <div class="co">
+      © Copyright Altair Theme by ThemeGoods ✮
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+  </body>
+</html>
+

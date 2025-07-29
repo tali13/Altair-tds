@@ -1,0 +1,83 @@
+
+   
+   #form-container{
+
+    height: 50px;
+    display: flex;
+    justify-content:center;
+
+
+}
+   
+   
+   .search-1 {
+    display: flex;
+
+    align-items: end;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    padding: 20px 0;
+  }
+  
+  .form-group {
+    display: flex;
+
+    flex-direction: column;
+
+    font-family: sans-serif;
+  }
+  
+  .form-group label {
+
+    text-transform: uppercase;
+
+   margin-bottom: 5px; 
+
+    letter-spacing: 1px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+  }
+  
+  input[type="text"] {
+     width: 200px;
+
+     padding: 8px 12px;
+
+  border: 1px solid #ccc;
+  }
+  
+  .date-group {
+   gap: 10px;
+
+   display: flex;
+  }
+  
+  .btn-1 {
+    padding: 10px 30px;
+
+    background-color: #397395;
+
+    border: none;
+
+    color: white;
+
+    letter-spacing: 1px;
+
+    font-weight: bold;
+
+    border-radius: 25px;
+
+    transition: background-color 0.3s ease;
+
+    cursor: pointer;
+  }
+  
+  .btn-1:hover {
+    background-color: #762c2c;
+  }
+  

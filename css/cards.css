@@ -1,0 +1,242 @@
+/* Container principal do card, define tamanho fixo e posicionamento */
+
+.card-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;;
+
+ 
+
+
+}
+
+
+.card {
+    position: relative; /* Necessário para posicionar a sobreposição de forma absoluta */
+    width: 565px;       /* Largura do card */
+    height: 494px;      /* Altura do card */
+    overflow: hidden;   /* Esconde qualquer conteúdo que ultrapasse os limites do card */
+    border-radius: 8px; /* Bordas arredondadas */
+  
+    
+}
+
+/* Estilização da imagem dentro do card */
+.card img {
+    width: 100%;           /* Imagem ocupa toda a largura do card */
+    height: 100%;          /* Imagem ocupa toda a altura do card */
+    object-fit: cover;     /* Garante que a imagem cubra todo o espaço sem distorcer */
+}
+
+/* Sobreposição  que contém os textos sobre a imagem */
+.card-36 {
+    position: absolute; /* Posiciona em relação ao .card */
+    bottom: 0;           /* Alinha no fundo do card */
+    color: white;        /* Cor do texto */
+    width: 100%;         /* Ocupa toda a largura */
+    padding: 20px;       /* Espaçamento interno */
+    /*background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)); */
+    /* Gradiente para melhor leitura do texto */
+    display: flex;       /* Flexbox para organizar os elementos */
+    flex-direction: column;      /* Alinha itens na vertical */
+    justify-content: space-between; /* Espaça itens superior e inferior */
+    height: 100%;        /* Cobre toda a altura do card */
+    gap: 10px;           /* Espaço entre os blocos internos */
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 22%;
+    transition: background-color 0.3s ease;
+}
+.card-36:hover{
+    background-color: rgba(165, 42, 42, 0.671);
+    
+}
+
+/* Linha do topo com país e dias */
+.card-tp {
+    display: flex;               /* Alinha itens lado a lado */
+    justify-content: space-between; /* Espaça os itens nas extremidades */
+    font-size: 12px;             /* Tamanho do texto pequeno */
+    font-weight: bold;          /* Texto em negrito */
+    opacity: 0.8;               /* Leve transparência */
+}
+
+/* Classe para o nome do país com estilo itálico */
+.c {
+    font-style: italic;
+}
+
+
+/* Título da viagem */
+.card-btn h2 {
+    font-size: 20px;
+    margin: 0;  /* Remove margens padrão */
+}
+
+.card-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+
+/* Preço da viagem */
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+}
+.coxinha{
+
+    color: rgb(165, 42, 42);
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.agua {
+    height: 500px;
+    background-color: white; /* ou transparente se tiver imagem de fundo */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .agua h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .comida {
+    width: 45%;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  .cansaso {
+    width: 20%;
+    font-style:italic;
+    color: #000000;
+  }
+  
+  
+
+
+.w {
+  background: url('https://themes.themegoods.com/altair/demo/wp-content/uploads/2014/10/1600x1200-12.jpg') no-repeat center top;
+  background-size: cover;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.w h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.cards-09{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card-01 {
+  background: #fff;
+  color: #333;
+  padding: 40px 20px 20px;
+  width: 300px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+
+.card-01 h3 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 14px;
+  color: #777;
+  margin: 15px 0;
+}
+
+.card-01 a {
+  color: #ff1900;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.news-section {
+    background-color: #000;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .news-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .news-subtitle {
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  
+  .news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .news-card {
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: end;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  .card-text {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .card-text h5 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-text p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    font-style: italic;
+  }
+  

@@ -1,0 +1,36 @@
+.carousel-caption-custom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    padding: 20px;
+    z-index: 10;
+  }
+  
+  .carousel-caption-custom h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-caption-custom p {
+    font-size: 1.2rem;
+  }
+  
+
+
+  .carousel-indicators .btn-carrossel {
+    border-radius: 100%;
+    width: 11px;
+    height: 11px;
+    z-index: 100;
+    background-color: gray;
+  }
+
+  .carousel-indicators .active {
+    border-radius: 100%;
+    width: 11px;
+    height: 11px;
+  }
